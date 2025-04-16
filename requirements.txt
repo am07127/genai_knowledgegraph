@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+networkx
+spacy
+langchain
+langchain-openai
+langchain-community
+pyvis
+nltk
+rouge-score
+matplotlib
+pandas
+openai
