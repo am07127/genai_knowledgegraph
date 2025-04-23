@@ -1,30 +1,43 @@
-# Knowledge Graph QA with PDFs
+# 🧠 Maternal Health AI Assistant
 
-A Streamlit application that builds a knowledge graph from PDF documents and provides question answering capabilities using LangChain and OpenAI.
+A Streamlit application for extracting knowledge from PDF documents pertaining to maternal healthcare data from the Pakistan National Health Services, and answering natural language queries using a combination of vector similarity and graph-based retrieval. The system also supports evaluating answer quality using ROUGE and BLEU scores.
 
-## Features
+---
 
-- PDF document processing and text extraction
-- Entity extraction using spaCy
-- Knowledge graph construction with NetworkX
-- Vector embeddings with OpenAI
-- Natural language question answering
-- Interactive knowledge graph visualization
+## 🚀 Features
 
-## Prerequisites
+- 📄 Upload PDF documents
+- 🔍 Extract text and split into chunks
+- 🧠 Generate OpenAI embeddings and store in a Chroma vector database
+- 🕸 Build a knowledge graph with named entities using spaCy and NetworkX
+- 🧾 Ask questions about the documents using OpenAI's GPT models
+- 🔄 Combine vector similarity and graph-based retrieval for enhanced answers
+- 📈 Evaluate responses using **ROUGE** and **BLEU** metrics
+- 🌐 Interactive knowledge graph visualization with **PyVis**
+- 📊 Track query response times and log history
 
-- Python 3.10 or higher
-- Anaconda or Miniconda (recommended)
-- OpenAI API key
+---
 
-## Setup Instructions
+## 🧰 Technologies Used
 
-### 1. Clone the Repository
+- **Streamlit** for web UI
+- **LangChain** for document splitting, embeddings, and LLM handling
+- **ChromaDB** for vector storage
+- **spaCy** for entity recognition
+- **NetworkX** and **PyVis** for knowledge graph generation and visualization
+- **OpenAI API (GPT-4-Turbo)** for answering questions
+- **ROUGE** and **BLEU (nltk)** for answer evaluation
+- **Matplotlib / Pandas** for displaying performance
 
-```bash
-git clone https://github.com/am07127/genai_knowledgegraph.git
-cd genai_knowledgegraph
-```
+---
+
+## 🛠 Setup Instructions
+
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/your-username/pdf-kg-qa.git
+   cd pdf-kg-qa
+
 
 ### 2. Create and activate conda environment
 
